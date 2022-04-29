@@ -13,7 +13,7 @@ makefile soon...
 ## Usage
 
 ```bash
-./ASFHeaderParser sample_640x360.wmv
+./ASFHeaderParser /absolute/path/to/filename.wmv
 ```
 
 ## ASF Documentation
