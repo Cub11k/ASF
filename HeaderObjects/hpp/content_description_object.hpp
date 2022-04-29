@@ -3,8 +3,7 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class ContentDescriptionObject : public Object
-{
+class ContentDescriptionObject : public Object {
 private:
     uint16_t titleLength_{};
     uint16_t authorLength_{};

@@ -1,4 +1,4 @@
-#include "hpp/content_branding_object.hpp"
+#include "../hpp/content_branding_object.hpp"
 
 std::istream &ContentBrandingObject::input(std::istream &in)
 {

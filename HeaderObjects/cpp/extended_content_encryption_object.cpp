@@ -1,4 +1,4 @@
-#include "hpp/extended_content_encryption_object.hpp"
+#include "../hpp/extended_content_encryption_object.hpp"
 
 std::istream &ExtendedContentEncryptionObject::input(std::istream &in)
 {

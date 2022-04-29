@@ -3,8 +3,7 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class PaddingObject : public Object
-{
+class PaddingObject : public Object {
 private:
     std::vector<uint8_t> paddingData_{};
 public:

@@ -4,8 +4,7 @@
 #include <ctime>
 #include "../../Object/hpp/object.hpp"
 
-class FilePropertiesObject : public Object
-{
+class FilePropertiesObject : public Object {
 private:
     ObjectGuid fileGuid_{};
     uint64_t fileSize_{};

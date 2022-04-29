@@ -1,4 +1,4 @@
-#include "hpp/header_object.hpp"
+#include "../hpp/header_object.hpp"
 
 std::istream &HeaderObject::input(std::istream &in)
 {

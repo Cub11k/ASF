@@ -3,21 +3,18 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class ScriptCommandObject : public Object
-{
+class ScriptCommandObject : public Object {
 private:
     ObjectGuid reserved_{};
     uint16_t commandsCount_{};
     uint16_t commandTypesCount_{};
-    class CommandType
-    {
+    class CommandType {
     public:
         uint16_t commandTypeNameLength_{};
         std::vector<uint8_t> commandTypeName_{};
     };
     std::vector<CommandType> commandTypes_{};
-    class Command
-    {
+    class Command {
     public:
         uint32_t presentationTime_{};
         uint16_t typeIndex_{};

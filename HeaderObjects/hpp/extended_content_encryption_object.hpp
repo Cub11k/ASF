@@ -3,8 +3,7 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class ExtendedContentEncryptionObject : public Object
-{
+class ExtendedContentEncryptionObject : public Object {
 private:
     uint32_t dataSize_{};
     std::vector<uint8_t> data_{};

@@ -3,13 +3,11 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class CodecListObject : public Object
-{
+class CodecListObject : public Object {
 private:
     ObjectGuid reserved_{};
     uint32_t codecEntriesCount_{};
-    class CodecEntry
-    {
+    class CodecEntry {
     public:
         uint16_t type_{};
         uint16_t codecNameLength_{};
