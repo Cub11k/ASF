@@ -1,4 +1,4 @@
-#include "hpp/file_properties_object.hpp"
+#include "../hpp/file_properties_object.hpp"
 
 std::istream &FilePropertiesObject::input(std::istream &in)
 {

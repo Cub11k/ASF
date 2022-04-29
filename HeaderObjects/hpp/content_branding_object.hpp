@@ -3,8 +3,7 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class ContentBrandingObject : public Object
-{
+class ContentBrandingObject : public Object {
 private:
     uint32_t bannerImageType_{};
     uint32_t bannerImageDataSize_{};

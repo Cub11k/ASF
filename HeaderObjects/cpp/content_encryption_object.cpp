@@ -53,7 +53,7 @@ std::istream &operator>>(std::istream &in, ContentEncryptionObject &obj)
     return obj.input(in);
 }
 
-std::ostream  &operator<<(std::ostream &out, ContentEncryptionObject &obj)
+std::ostream &operator<<(std::ostream &out, ContentEncryptionObject &obj)
 {
     return obj.output(out);
 }

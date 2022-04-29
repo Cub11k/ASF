@@ -3,11 +3,9 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class HeaderObject : public Object
-{
+class HeaderObject : public Object {
 private:
-    enum Defaults
-    {
+    enum Defaults {
         OBJECT_NUMBER = 3,
         RESERVED_1 = 0x01,
         RESERVED_2 = 0x02

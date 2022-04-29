@@ -3,16 +3,14 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class MarkerObject : public Object
-{
+class MarkerObject : public Object {
 private:
     ObjectGuid reserved_;
     uint32_t markersCount_{};
     uint16_t reserved2_;
     uint32_t nameLength_{};
     std::vector<uint8_t> name_;
-    class Marker
-    {
+    class Marker {
     public:
         uint64_t offset_{};
         uint64_t presentationTime_{};

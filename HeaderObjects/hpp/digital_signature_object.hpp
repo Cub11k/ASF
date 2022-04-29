@@ -3,8 +3,7 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class DigitalSignatureObject : public Object
-{
+class DigitalSignatureObject : public Object {
 private:
     uint32_t signatureType_{};
     uint32_t signatureDataLength_{};

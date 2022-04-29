@@ -21,7 +21,7 @@ std::ostream &BitrateMutualExclusionObject::output(std::ostream &out)
     out << "Bitrate Mutual Exclusion Object\n";
     out << "  Stream numbers count: " << streamNumbersCount_ << "\n";
     out << "  Stream numbers:";
-    for (auto &x: streamNumbers_) {
+    for (auto &x : streamNumbers_) {
         out << "\n    " << x;
     }
     out << std::endl;

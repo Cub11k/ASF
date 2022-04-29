@@ -3,8 +3,7 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class HeaderExtensionObject : public Object
-{
+class HeaderExtensionObject : public Object {
 private:
     ObjectGuid reserved1_{};
     uint16_t reserved2_{};

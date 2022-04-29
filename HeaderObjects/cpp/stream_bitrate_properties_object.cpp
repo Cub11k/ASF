@@ -22,7 +22,7 @@ std::ostream &StreamBitratePropertiesObject::output(std::ostream &out)
     out << "Stream Bitrate Properties Object\n";
     out << "  Bitrate records count: " << bitrateRecordsCount_ << "\n";
     out << "  Bitrate records:";
-    for (auto &record: bitrateRecords_) {
+    for (auto &record : bitrateRecords_) {
         out << "\n    Stream number: " << record.flags_ << ", ";
         out << "average bitrate: " << record.averageBitrate_;
     }

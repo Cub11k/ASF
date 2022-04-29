@@ -4,11 +4,9 @@
 #include "object_guid.hpp"
 #include <memory>
 
-class Object
-{
+class Object {
 private:
-    enum ObjectType
-    {
+    enum ObjectType {
         ASF_UNKNOWN_OBJECT,
         ASF_HEADER_OBJECT,
         ASF_DATA_OBJECT,

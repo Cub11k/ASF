@@ -3,12 +3,10 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class ExtendedContentDescriptionObject : public Object
-{
+class ExtendedContentDescriptionObject : public Object {
 private:
     uint16_t contentDescriptorsCount_{};
-    class ContentDescriptor
-    {
+    class ContentDescriptor {
     public:
         uint16_t descriptorNameLength_{};
         std::vector<uint8_t> descriptorName_{};

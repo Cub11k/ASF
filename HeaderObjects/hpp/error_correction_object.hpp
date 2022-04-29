@@ -3,8 +3,7 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class ErrorCorrectionObject : public Object
-{
+class ErrorCorrectionObject : public Object {
 private:
     ObjectGuid errorCorrectionType_{};
     uint32_t errorCorrectionDataLength_{};

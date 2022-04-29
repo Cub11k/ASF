@@ -70,7 +70,7 @@ private:
     uint32_t reserved_{};
     std::shared_ptr<MediaData> typeSpecificData_{};
     // just read, do not store errorCorrectionData(errorCorrectionDataLength_)
-    const std::vector<ObjectGuid> MEDIA_GUIDS {
+    const std::vector<ObjectGuid> MEDIA_GUIDS{
         {
             0xF8699E40,
             0x5B4D,

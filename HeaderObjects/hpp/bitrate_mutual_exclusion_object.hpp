@@ -3,8 +3,7 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class BitrateMutualExclusionObject : public Object
-{
+class BitrateMutualExclusionObject : public Object {
 private:
     ObjectGuid exclusionType_{};
     uint16_t streamNumbersCount_{};

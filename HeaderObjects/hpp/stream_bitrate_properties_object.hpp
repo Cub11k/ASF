@@ -3,12 +3,10 @@
 
 #include "../../Object/hpp/object.hpp"
 
-class StreamBitratePropertiesObject : public Object
-{
+class StreamBitratePropertiesObject : public Object {
 private:
     uint16_t bitrateRecordsCount_{};
-    class BitrateRecord
-    {
+    class BitrateRecord {
     public:
         uint16_t flags_{};
         uint32_t averageBitrate_{};
